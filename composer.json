@@ -1,0 +1,20 @@
+{
+    "name": "hb/basic-pokeapi",
+    "description": "Use only symfony/http-client to reserve (proxy) Pokemon list from https;//pokeapi.co/",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hb\\BasicPokeapi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TiberghienValerie",
+            "email": "tiberghien.valerie@wanadoo.fr"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^5.3"
+    }
+}
